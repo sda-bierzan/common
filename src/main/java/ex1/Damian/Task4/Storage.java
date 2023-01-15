@@ -1,9 +1,6 @@
 package ex1.Damian.Task4;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Storage {
 
@@ -48,6 +45,28 @@ public class Storage {
                 .map(leftEntry -> leftEntry.getKey())
                 .forEach(key -> System.out.println(key)); // wykonanie logiki przefiltrowanych elementów
 
+
+        final var set = new HashSet<String>();
+        set.add("pies");
+        set.remove("pies");
+        set.size();
+        set.contains("pies");
+        set.clear();
+
+
+
     }
+
+    public class SDAHashSet {
+        private final List<String> valueList = new ArrayList<>();
+
+
+        public boolean add(String value){
+            return valueList.add(value);
+
+        }
+
+    }
+
 }
 
