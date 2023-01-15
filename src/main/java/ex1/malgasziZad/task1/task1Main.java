@@ -1,10 +1,12 @@
-package ex1.malgasziZad;
+package ex1.malgasziZad.task1;
+
+import ex1.malgasziZad.task1.StreamSorter;
 
 import java.util.ArrayList;
 
 //Stwórz metodę, która jako parametr przyjmuje listę stringów, następnie zwraca tą listę posortowaną
 // alfabetycznie od Z do A.
-public class zad1Main {
+public class task1Main {
     public static void main(String[] args) {
 
 

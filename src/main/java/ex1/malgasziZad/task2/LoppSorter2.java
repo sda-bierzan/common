@@ -1,13 +1,12 @@
-package ex1.malgasziZad;
+package ex1.malgasziZad.task2;
 
-import java.util.Comparator;
 import java.util.List;
 
- class LoopSorter {
+public class LoppSorter2 {
     public List<String> sortDesc(List<String> unsortedList) {
         for (int i = 0; i < unsortedList.size(); i++) {
-            for (int j = 0; j < unsortedList.size(); j++) {
-                if (unsortedList.get(i).compareTo(unsortedList.get(j))<0){
+            for (int j = i+1; j < unsortedList.size(); j++) {
+                if (unsortedList.get(i).compareToIgnoreCase(unsortedList.get(j))<0){
                     // wiemy że elementy należy zamienić miejscami
                     final var temp = unsortedList.get(j);
                     unsortedList.set(j, unsortedList.get(i));
@@ -19,3 +18,4 @@ import java.util.List;
         return unsortedList;
     }
 }
+

@@ -1,4 +1,4 @@
-package ex1.malgasziZad;
+package ex1.malgasziZad.task1;
 
 import java.util.Comparator;
 import java.util.List;
