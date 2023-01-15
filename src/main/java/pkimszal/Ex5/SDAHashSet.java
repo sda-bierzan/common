@@ -1,4 +1,4 @@
-package ex.pkimszal.Ex5;
+package pkimszal.Ex5;
 
 import java.util.ArrayList;
 import java.util.List;

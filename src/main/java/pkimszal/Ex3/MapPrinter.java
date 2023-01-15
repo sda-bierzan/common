@@ -1,6 +1,4 @@
-package ex.pkimszal.Ex3;
-
-import java.util.Map;
+package pkimszal.Ex3;
 
 public class MapPrinter {
 

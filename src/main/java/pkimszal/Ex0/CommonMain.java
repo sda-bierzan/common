@@ -1,4 +1,4 @@
-package ex;
+package pkimszal.Ex0;
 
 class CommonMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex.pkimszal.Ex5;
+package pkimszal.Ex5;
 
 public class Ex5main {
     public static void main(String[] args) {

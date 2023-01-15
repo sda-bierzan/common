@@ -1,6 +1,6 @@
-package ex.pkimszal.Ex2;
+package pkimszal.Ex2;
 
-import ex.pkimszal.Ex1.StreamSorter;
+import pkimszal.Ex1.StreamSorter;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package ex.pkimszal.Ex2;
+package pkimszal.Ex2;
 
 import java.util.List;
 import java.util.stream.Collectors;

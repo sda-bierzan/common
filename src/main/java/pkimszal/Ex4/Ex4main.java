@@ -1,6 +1,4 @@
-package ex.pkimszal.Ex4;
-
-import java.util.Optional;
+package pkimszal.Ex4;
 
 public class Ex4main {
     public static void main(String[] args) {

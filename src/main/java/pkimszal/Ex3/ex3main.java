@@ -1,4 +1,4 @@
-package ex.pkimszal.Ex3;
+package pkimszal.Ex3;
 
 import java.util.HashMap;
 import java.util.Map;

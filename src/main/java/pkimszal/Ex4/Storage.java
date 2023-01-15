@@ -1,4 +1,4 @@
-package ex.pkimszal.Ex4;
+package pkimszal.Ex4;
 
 import java.util.*;
 
