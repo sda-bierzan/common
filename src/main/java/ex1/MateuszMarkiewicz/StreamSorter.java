@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StreamSorter {
-    class StreamSorter {
+
+
+
 
         public List<String> sortDesc(List<String> unsortedList){
             return unsortedList.stream()
@@ -13,4 +15,4 @@ public class StreamSorter {
                     .collect(Collectors.toList());
         }
     }
-}
+

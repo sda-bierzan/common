@@ -2,7 +2,7 @@ package ex1.MateuszMarkiewicz;
 
 import java.util.List;
 
-public class LoopSorter {
+
     import java.util.List;
 
     class LoopSorter {
@@ -25,4 +25,3 @@ public class LoopSorter {
             return unsortedList;
         }
     }
-}

@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class ListSorter {
-    class ListSorter {
+
 
         public List<String> sortDesc(List<String> unsortedList){
             unsortedList.sort(Comparator.reverseOrder());
@@ -12,4 +12,4 @@ public class ListSorter {
         }
     }
 
-}
+
