@@ -1,8 +1,8 @@
-package ex1.michalw;
+package ex1.michalw.task2;
 
-import java.util.*;
+import java.util.List;
 
-public class LoopSorter {
+public class LoopSorter2 {
     public List<String> sortDisc(List<String> unsortedList){
         for (int i = 0; i < unsortedList.size(); i++) {
             for (int j = i+1; j < unsortedList.size(); j++) {

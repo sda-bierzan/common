@@ -1,8 +1,12 @@
-package ex1.michalw;
+package ex1.michalw.task2;
+
+import ex1.michalw.ListSorter;
 
 import java.util.ArrayList;
 
-public class Task1 {
+public class Task2 {
+
+
     public static void main(String[] args) {
 
         final var unsortedString = new ArrayList<String>();
@@ -16,7 +20,10 @@ public class Task1 {
         expected.add("Bartosz");
         expected.add("Malgorzata");
 
-        final var sorter = new  ListSorter();
+        final var sorter = new ListSorter();
         final var result = sorter.sortDisc(unsortedString);
     }
 }
+
+
+
