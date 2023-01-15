@@ -12,5 +12,10 @@ public class Ex4Main {
         storage.addToStorage("car", "mercedez");
         storage.addToStorage("car", "fiat");
         storage.addToStorage("car", "mazda");
+        storage.addToStorage("car", "pig");
+        storage.printValues("animal");
+        storage.printValues("car");
+
+        storage.findKeys("pig");
     }
 }
