@@ -9,20 +9,26 @@ public class ex1main {
 
         final var unsortedStrings = new ArrayList<String>();
         unsortedStrings.add("Tomasz");
-        unsortedStrings.add("Pjoter");
-        unsortedStrings.add("Bartunia");
-        System.out.println("INPUT: " + unsortedStrings);
+        unsortedStrings.add("Bartosz");
+        unsortedStrings.add("Małgorzata");
+
+        final var unsortedStrings2 = List.of(
+                "Tomasz",
+                "Bartosz",
+                "Małgorzata"
+        );
+
+        System.out.println("INPUT: " + unsortedStrings2);
 
         final var expected = new ArrayList<String>();
         expected.add("Tomasz");
-        expected.add("Bartunia");
-        expected.add("Pjoter");
+        expected.add("Małgorzata");
+        expected.add("Bartosz");
         System.out.println("EXPECTED: " + expected);
 
-        final var sorter = new LoopSorter();
-        final var result = sorter.sortDesc(unsortedStrings);
+        final var sorter = new StreamSorter();
+        final var result = sorter.sortDesc(unsortedStrings2);
         System.out.println("RESULT: " + result);
-
     }
 
 }
