@@ -6,6 +6,7 @@ public class Task4Main {
         storage.addToStorage("animals", "horse");
         storage.addToStorage("animals", "dog");
         storage.addToStorage("animals", "cat");
+        storage.addToStorage("animals", "Merc");
 
 
         storage.addToStorage("cars", "Merc");
@@ -22,6 +23,10 @@ public class Task4Main {
         System.out.println("**************************************");
 
         storage.findKeys("dog");
+
+        System.out.println("##### with Stream #########");
+
+        storage.findKeysWitchStream("Merc");
 
 
 

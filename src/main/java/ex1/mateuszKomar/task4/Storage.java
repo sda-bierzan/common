@@ -37,4 +37,8 @@ public class Storage {
             }
         });
     }
+    public void findKeysWitchStream(String value) {
+        storageMap.entrySet().stream().filter(stringListEntry -> stringListEntry.getValue().contains(value))
+                .forEach(leftEntry -> System.out.println(leftEntry.getKey()));
+        }
 }
