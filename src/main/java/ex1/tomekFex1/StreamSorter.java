@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class StreamSorter {
     public List<String> sortDesc(List<String> unsortedList){
         return unsortedList.stream()
-                .sorted(Comparator.reverseOrder())
+                .sorted(String.CASE_INSENSITIVE_ORDER.reversed())
                 .collect(Collectors.toList());
     }
 }

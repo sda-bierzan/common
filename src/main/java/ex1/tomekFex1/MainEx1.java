@@ -12,6 +12,8 @@ public class MainEx1 {
         unsortedStrings.add("Tomasz");
         unsortedStrings.add("Bartosz");
         unsortedStrings.add("Małgorzata");
+        unsortedStrings.add("kursant");
+        unsortedStrings.add("trener");
         System.out.println(unsortedStrings);
 
 
@@ -19,9 +21,11 @@ public class MainEx1 {
         expected.add("Tomasz");
         expected.add("Małgorzata");
         expected.add("Bartosz");
+        expected.add("kursant");
+        expected.add("trener");
         System.out.println("EXPECTED: " + expected);
 
-        final var sorter = new ListSorter();
+        final var sorter = new StreamSorter();
         final var result= sorter.sortDesc(unsortedStrings);
         System.out.println("Result: " + result);
 

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListSorter {
     public List<String> sortDesc(List<String> unsortedList){
-        unsortedList.sort(Comparator.naturalOrder());
+        unsortedList.sort(String.CASE_INSENSITIVE_ORDER.reversed());
         return unsortedList;
     }
 }
