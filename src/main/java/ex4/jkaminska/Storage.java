@@ -1,9 +1,7 @@
 package ex4.jkaminska;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.List;
 
 public class Storage {
@@ -35,6 +33,28 @@ public class Storage {
                System.out.println(k);
            }
         });
+    }
+    public void findKeysWithStream(String value){
+        storageMap.entrySet()//zamiana na element kolekcji
+                .stream() //zamiana na stream
+                .filter(stringListEntry -> stringListEntry.getValue().contains(value)) //filtrowanie wedlug podanej zasady
+                .map(leftEntry -> leftEntry.getKey()) //mapowanie entry na key
+                .forEach(key -> System.out.println(key)); //wykonanie logiki na przefiltrowanych elementach
+
+//        public void findKeysWithStream(String value){
+//            storageMap.entrySet()//zamiana na element kolekcji
+//                    .stream() //zamiana na stream
+//                    .filter(stringListEntry -> stringListEntry.getValue().contains(value)) //filtrowanie wedlug podanej zasady
+//                    .map(Map.Entry::getKey) //mapowanie entry na key
+//                    .forEach(System.out::println); //wykonanie logiki na przefiltrowanych elementach
+
+        final var set = new HashSet<String>();
+        set.add("pies");
+        set.remove("pies");
+        set.size();
+        set.contains("pies");
+        set.clear();
+
     }
 }
 
