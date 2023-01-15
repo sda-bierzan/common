@@ -32,5 +32,13 @@ public class Storage {
             System.out.println(storageMap.get(key));
         }
     }
+
+    public void findValues (String value){
+      storageMap.forEach((k , v) -> {
+          if (v.contains(value)){
+              System.out.println(k);
+      }
+        });
+    }
 }
 

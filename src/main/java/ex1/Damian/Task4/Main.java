@@ -7,13 +7,18 @@ public class Main {
         storage.addToStorage("Animal", "Dog");
         storage.addToStorage("Animal", "Horse");
         storage.addToStorage("Animal", "Mouse");
-
-
         storage.addToStorage("Car", "Marcedes");
         storage.addToStorage("Car", "Fiat");
+
+
         storage.printValues("Animal");
         storage.printValues("Car");
         storage.printValues("Books");
+
+
+        storage.findValues("Mouse");
+
+        
 
     }
 }
