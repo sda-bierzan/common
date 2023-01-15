@@ -24,6 +24,8 @@ public class ExerciseFour {
         storage.addToStorage("cars", "ferrari");
 
         storage.printValues("cars");
+
+        storage.findKeys("ferrari");
     }
 
 
