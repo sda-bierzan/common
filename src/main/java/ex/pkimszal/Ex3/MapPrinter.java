@@ -4,9 +4,9 @@ import java.util.Map;
 
 public class MapPrinter {
 
-    public void print (Map<String, Integer> mapToPrint){
-        mapToPrint.forEach((k, v) -> {
-            System.out.println("Klucz: " + k + ", " + "Wartosc: " + v);
-        });
-    }
+//    public void print (Map<String, Integer> mapToPrint){
+//        return mapToPrint.forEach((k, v) -> {
+//            System.out.println();
+//        })
+//    }
 }

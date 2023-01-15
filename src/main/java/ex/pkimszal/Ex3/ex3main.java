@@ -12,6 +12,6 @@ public class ex3main {
         mapValue.put("Bartek", 3);
 
         MapPrinter printer = new MapPrinter();
-        printer.print(mapValue);
+//        printer.print(mapValue);
     }
 }
