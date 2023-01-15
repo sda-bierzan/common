@@ -13,7 +13,6 @@ public class LoopSorter {
 
                 }
             }
-
         }
         return unsortedList ;
     }

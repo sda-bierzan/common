@@ -18,5 +18,7 @@ public class Task2 {
         final var sorter = new LoopSorter();
         final var result = sorter.sortDesc(unsortedStrings);
         System.out.println("Result: "  + result);
+
+        unsortedStrings.forEach(s -> System.out.println(s));
     }
 }
