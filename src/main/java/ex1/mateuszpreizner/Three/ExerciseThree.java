@@ -22,8 +22,9 @@ public class ExerciseThree {
         someMap.put("Python", 1);
         someMap.put("PHP", 0);
         MapPrinter printer = new MapPrinter();
-
         printer.print(someMap);
+
+
 
     }
 
