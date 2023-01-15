@@ -9,7 +9,7 @@ public class StreamSorter2 {
 
     public List<String> sortDesc(List<String> unsortedList) {
         return unsortedList.stream()
-                .sorted(String.CASE_INSENSITIVE_ORDER)
+                .sorted(String.CASE_INSENSITIVE_ORDER.reversed())
                 .collect(Collectors.toList());
 
     }
