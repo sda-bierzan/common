@@ -40,5 +40,14 @@ public class Storage {
       }
         });
     }
+
+    public void findKeyWithStream (String value){
+        storageMap.entrySet()
+                .stream() //zamiana stream
+                .filter(stringListEntry -> stringListEntry.getValue().contains(value)) // filtrowanie według podanej zasady
+                .map(leftEntry -> leftEntry.getKey())
+                .forEach(key -> System.out.println(key)); // wykonanie logiki przefiltrowanych elementów
+
+    }
 }
 

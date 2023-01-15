@@ -17,8 +17,9 @@ public class Main {
 
 
         storage.findValues("Mouse");
+        storage.findKeyWithStream("Fiat");
 
-        
+
 
     }
 }
