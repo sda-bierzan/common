@@ -1,6 +1,5 @@
-package ex1.pkimszal;
+package ex.pkimszal.Ex2;
 
-import java.util.Comparator;
 import java.util.List;
 
 public class ListSorter {

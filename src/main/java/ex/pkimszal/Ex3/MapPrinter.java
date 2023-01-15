@@ -1,4 +1,4 @@
-package ex1.pkimszal.Ex3;
+package ex.pkimszal.Ex3;
 
 import java.util.Map;
 

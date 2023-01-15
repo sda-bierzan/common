@@ -1,4 +1,4 @@
-package ex1;
+package ex;
 
 class CommonMain {
     public static void main(String[] args) {

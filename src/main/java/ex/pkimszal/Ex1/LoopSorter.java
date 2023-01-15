@@ -1,4 +1,4 @@
-package ex1.pkimszal;
+package ex.pkimszal.Ex1;
 
 import java.util.Comparator;
 import java.util.List;
