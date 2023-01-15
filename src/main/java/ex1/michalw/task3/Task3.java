@@ -12,5 +12,7 @@ public class Task3 {
         mapValue.put("Wojtek", 25);
         MapPrinter printer = new MapPrinter();
         printer.print(mapValue);
+
+
     }
 }
