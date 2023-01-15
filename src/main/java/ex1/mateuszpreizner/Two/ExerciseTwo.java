@@ -1,4 +1,4 @@
-package ex1.mateuszpreizner;
+package ex1.mateuszpreizner.Two;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package ex1.mateuszpreizner;
+package ex1.mateuszpreizner.One;
 
 import java.util.Comparator;
 import java.util.List;
