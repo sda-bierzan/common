@@ -13,5 +13,7 @@ public class task3Map {
         task3MapPrint printer = new task3MapPrint();
         printer.print(mapValue);
 
+
+
     }
 }
