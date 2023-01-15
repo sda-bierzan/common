@@ -1,7 +1,6 @@
-package ex1.mateuszpreizner;
+package ex1.mateuszpreizner.One;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ExerciseOne {
     public static void main(String[] args) {
