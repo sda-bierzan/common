@@ -18,4 +18,15 @@ public class SDAHashSet {
         return valueList.add(value);
     }
 
-}
+
+    public boolean isRemoved (String value){
+        if (valueList.contains(value)){
+          return valueList.remove(value);
+
+        }
+        return false;
+    }
+
+
+    }
+
