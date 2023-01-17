@@ -11,24 +11,33 @@ public class SDAHashSet {
         return valueList.toString();
     }
 
-    public boolean add(String value){
-        if (valueList.contains(value)){
+    public boolean add(String value) {
+        if (valueList.contains(value)) {
             return false;
         }
         return valueList.add(value);
     }
 
 
-    public boolean isRemoved (String value){
-        if (valueList.contains(value)){
-          return valueList.remove(value);
+    public boolean isRemoved(String value) {
+        if (valueList.contains(value)) {
+            return valueList.remove(value);
 
         }
         return false;
     }
 
-
+    public int size() {
+        return valueList.size();
     }
+
+}
+
+
+
+
+
+
 
 
 
