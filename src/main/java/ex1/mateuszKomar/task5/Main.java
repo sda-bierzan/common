@@ -12,6 +12,11 @@ public class Main {
 
         sdaHashSet.isRemoved("Mateusz");
         System.out.println(sdaHashSet);
+
+
+
+
+        
     }
 
 }
