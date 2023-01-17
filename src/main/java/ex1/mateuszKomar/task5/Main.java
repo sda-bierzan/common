@@ -27,24 +27,7 @@ public class Main {
 
 
 
-        List<String> list = new ArrayList<>();
 
-        list.add("A");
-        list.add("B");
-        list.add("C");
-        list.add("C");
-        list.add("B");
-        list.add("A");
-
-        System.out.println(list);
-
-        boolean isRemoved = list.remove("C");
-        System.out.println(list);
-        System.out.println(isRemoved);
-
-        isRemoved = list.remove("X");
-        System.out.println(list);
-        System.out.println(isRemoved);
     }
 
 }
