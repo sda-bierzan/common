@@ -1,8 +1,5 @@
 package ex1.mateuszKomar.task5;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         SDAHashSet sdaHashSet = new SDAHashSet();
@@ -15,19 +12,6 @@ public class Main {
 
         sdaHashSet.isRemoved("Mateusz");
         System.out.println(sdaHashSet);
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }
