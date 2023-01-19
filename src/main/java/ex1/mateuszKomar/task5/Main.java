@@ -17,6 +17,10 @@ public class Main {
 
         System.out.println("The size of the sdaHashSet is:  " + sdaHashSet.size());
 
+        System.out.println("############## Metoda Contains ##############");
+
+        sdaHashSet.Contains("Bartek");
+
 
 
     }

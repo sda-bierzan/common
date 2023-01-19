@@ -30,6 +30,14 @@ public class SDAHashSet {
     public int size() {
         return valueList.size();
     }
+        public boolean Contains(String T){
+        if (valueList.contains(T)){
+            System.out.println("List contains: " + T);
+
+        }
+        return false;
+        }
+
 
 }
 
