@@ -20,6 +20,7 @@ public class SDAHashSet {
 
 
     public boolean isRemoved(String value) {
+        System.out.println("You removed: " + value);
         if (valueList.contains(value)) {
             return valueList.remove(value);
 
@@ -30,14 +31,18 @@ public class SDAHashSet {
     public int size() {
         return valueList.size();
     }
-        public boolean Contains(String T){
+        public boolean myContains(String T){
         if (valueList.contains(T)){
             System.out.println("List contains: " + T);
 
         }
         return false;
         }
-
+        public void clearElements(){
+            System.out.println("Elements before clear: "+ valueList);
+        valueList.clear();
+            System.out.println("Elements after clear: " + valueList);
+        }
 
 }
 
